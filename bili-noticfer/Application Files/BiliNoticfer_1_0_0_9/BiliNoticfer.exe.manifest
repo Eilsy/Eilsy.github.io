@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BiliNoticfer.exe" version="1.0.0.9" publicKeyToken="edf9baf54b439be6" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="22.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BiliNoticfer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BiliNoticfer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BiliNoticfer.exe" size="194016">
+      <assemblyIdentity name="BiliNoticfer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2NckpLpSU1UAxBzcRtHypBr3wPpg8JQ7YRdlQAsIihg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="22.ico" size="29582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QsAgfEszBsaIw4O7T3HqBLa/nIFZqSawluMSzsMUUyY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BiliNoticfer.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=W10-20200710174\Eilsy" issuerKeyHash="dacd6568593ceccaa58b1935b0aa043ea75bd6ea" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rjcGNY4mS7ok6Wl2+4H3VuklHEGOGSaqiZxbmxWBcBQ=</DigestValue></Reference></SignedInfo><SignatureValue>kPC1il2bSIKhZXancOL1iy/hi5cEnjKNHUoXBWGex1sGXhyxUP3BcGVLb0pWYn/YX8TOwdgTvtd74QhBNRSUZEseG1whayxZ3PFreFsuV9h1fGMpMxx7G1BVW3hPI9jwXi6kNHDdzgJN3HHqprAbhGv5rQSjrpPxhzO2Wp84BfQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yNvduNSJxUQlQRX/4GyW06qRnUBuk/OaN3pUrJCFqdnVyxAvtspzoVF+b+4rewhukNUCr9TbID3kHX2rWLYNrvJbym57OGi+s6EHpVQVauZtbpd0/rLxN/g3W2IKE+QmxypgMb9ogJlZVjmRv2jUrQp7GSR9GNPamxZS+/x6v0k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="147081159b5b9c89aa26198e411c25e956f781fb7669e924ba4b268e350637ae" Description="" Url=""><as:assemblyIdentity name="BiliNoticfer.exe" version="1.0.0.9" publicKeyToken="edf9baf54b439be6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=W10-20200710174\Eilsy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VFDH3OHrm7RUTf0h690gMGlztouC29n4UhQSLgIN5MY=</DigestValue></Reference></SignedInfo><SignatureValue>CsxP0YrQ3m9URHE8bhcYed3vnbjayiz/V0oFa7A3UMT0CT17HlO37rLOFdJXnAhV1gXCj5B04cDrOZU10+0Q5KZ3+wphBGRw0lzyyvN0AzrOABe+wfJnNfYOcQOWMxMi0uvZrhnvs/6fsrYf9UdW0EOegL9GBp0jexTHbfml2Ec=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yNvduNSJxUQlQRX/4GyW06qRnUBuk/OaN3pUrJCFqdnVyxAvtspzoVF+b+4rewhukNUCr9TbID3kHX2rWLYNrvJbym57OGi+s6EHpVQVauZtbpd0/rLxN/g3W2IKE+QmxypgMb9ogJlZVjmRv2jUrQp7GSR9GNPamxZS+/x6v0k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQfIw12jkbipdBREecZbq8ejANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAVwAxADAALQAyADAAMgAwADAANwAxADAAMQA3ADQAXABFAGkAbABzAHkwHhcNMjAwNzIyMDU1MjQzWhcNMjEwNzIyMTE1MjQzWjA1MTMwMQYDVQQDHioAVwAxADAALQAyADAAMgAwADAANwAxADAAMQA3ADQAXABFAGkAbABzAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMjb3bjUicVEJUEV/+BsltOqkZ1AbpPzmjd6VKyQhanZ1csQL7bKc6FRfm/uK3sIbpDVAq/U2yA95B19q1i2Da7yW8puezhovrOhB6VUFWrmbW6XdP6y8Tf4N1tiChPkJscqYDG/aICZWVY5kb9o1K0KexkkfRjT2psWUvv8er9JAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAwz632Z9YKixLKE7V7G4QdSgmsv0oixfxxMjJ0PadWIT8plPMgcuVTbKg5Q+LllXcqPF6e4gPrKIYRLcyqLDB7JpqvP7qfgEJ46+fNtH9LIQl2myglQb1jsyat91qUXhoJfhHR/uO0HZUeiayEF0C/LY0btCaCNpu7Xjm5NPVEiA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
